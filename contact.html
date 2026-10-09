@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <title>Contact US - YouCode</title>
+    <meta name="description" content="contact us page" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span><a href="index.html" id="home-logo">[YouCode]</a></span>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="">Campus</a>
+        <a href="">Clubs & Activités</a>
+        <a href="">Evénements</a>
+        <a href="">Conseils aux nouveaux</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <button href="contact.html" class="header-button">
+        Rejoindre l'aventure
+      </button>
+    </header>
+    <main>
+        <div>
+            <div>
+                <p>Tes premiers pas à YouCode</p>
+                <h1 id="contact-header">Ton aventure commence par une rencontre</h1>
+            </div>
+            <div>
+                <form>
+                    <label for="nom">Nom :</label><br>
+                    <input type="text" id="nom" name="nom" required /><br>
+                    
+                    <label for="prenom">Prénom :</label><br>    
+                    <input type="text" id="prenom" name="prenom" required /><br>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email" required /><br>
+                    <label for="tel">Téléphone :</label><br>
+                    <input type="tel" id="tel" name="tel" required /><br>
+                    <input type="radio" id="Safi" name="city-campus" value="safi" />
+                    <label for="Safi">Safi</label><br>
+                    <input type="radio" id="Youssoufia" name="city-campus" value="youssoufia" />
+                    <label for="Youssoufia">Youssoufia</label><br>
+                    <input type="radio" id="Nador" name="city-campus" value="nador" />
+                    <label for="Nador">Nador</label><br>
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </div>
+        </div>
+    </main>
+  </body>
+</html>

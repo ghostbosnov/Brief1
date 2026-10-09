@@ -1,0 +1,253 @@
+/* Global Styles */
+
+* {
+    font-family: inter, sans-serif;
+    padding: 0;
+}
+
+body {
+    background-color: #08121e;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+
+}
+
+#home-logo {
+    text-decoration: none;
+    color: black;
+    font-size: 1.85rem;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 170px;
+    gap: 30px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+/* Home Page Styles */
+
+.fa-solid {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+button.header-button {
+    background-color: #2511b8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+}
+
+
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 0.05;
+    color: #2511b8;
+
+    p {
+        color: white;
+    }
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+
+#hero-header span {
+    font-size: 4.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #c7f64a;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-direction: start;
+    flex: 1;
+    width: 45%;
+    margin-left: 65px;
+    padding-bottom: 30px;
+}
+
+.hero-subtitle {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    padding: 0px;
+    font-weight: 800;
+}
+
+.hero-description {
+    color: white;
+    font-size: 1rem;
+    margin-top: 5px;
+    line-height: 1.1;
+    width: 60%;
+}
+
+header span {
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+}
+
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.hero-button1 {
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #034bff;
+    background-color: #034bff;
+    border-radius: 10px;
+}
+
+.hero-button2 {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #034bff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.hero-spans {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hero-spans span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: bold;
+}
+
+.hero-span1 {
+    background-color: #b8c9cf;
+}
+
+.hero-span2 {
+    background-color: #d7c3b6;
+}
+
+.hero-span-paragraph {
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    line-height: 0.3;
+}
+
+#hero-spans-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    flex-direction: start;
+    object-fit: cover;
+    flex: 2;
+
+}
+
+section .hero {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-title {
+    font-size: 1.5rem;
+    color: #2511b8;
+    font-weight: 700;
+}
+
+section {
+    width: 100%;
+    background-color: #08121e;
+    margin: 0;
+    padding: 0;
+}
+section #statistics{
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 0px;
+    color: white;
+}
+
+/* Contact Form Styles */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+/* Footer Styles * /
